@@ -1,0 +1,21 @@
+/* CSS Reset */
+
+* {
+    margin: 0; 
+    padding: 0; 
+    height:0;
+}
+
+
+/* Home Page */
+
+.nav-bar {
+    display: flex; 
+    justify-content: space-evenly;
+
+}
+
+
+.home-page-background {
+    background-image: url("/images/home_page_background.png");
+}
