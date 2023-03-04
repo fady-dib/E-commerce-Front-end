@@ -7,7 +7,7 @@
     gap: 20px;
     
 }
-.box{
+.box_checkout{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -20,4 +20,7 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 20px;
+}
+.p_summary{
+    display:inline;
 }
