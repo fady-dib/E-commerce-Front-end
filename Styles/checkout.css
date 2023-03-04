@@ -1,3 +1,47 @@
+/* css reset */
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    background-color: #2C698D;
+    opacity: 0.8;
+    margin: 0;
+    margin-bottom: 20px;
+     
+    /* border: 1px black solid; */
+}
+.side{
+    display: flex;
+    gap: 2.5rem;
+ 
+   padding-right: 2rem;
+    
+}
+.side a:link {
+    text-decoration: none;
+    color: rgb(224, 223, 223);
+    z-index: 5px 2px 5px;
+    font-size: 1.2rem;
+}
+
+#logo{
+    width: 200px;
+    
+}
+.title {
+     font-size: 1.5rem;
+}
+
+
+
+
 body{
     font-family:'Segoe UI';
 }
@@ -146,25 +190,66 @@ body{
     border-radius: 4px;
   }
   .button {
-    font-size: large;
-    display: inline-block;
-    font-family:'Segoe UI';
-    padding: 15px 25px;
     cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: #ffffff;
-    background-color: #2C698D;
-    border: none;
-    border-radius: 30px;
-    box-shadow: 1px 1px 1px 1px #e8e9ea;
-    margin-top: 20px;
-  }
-.button:hover {background-color: #1e4a63}
-
-.button:active {
-    background-color: #2C698D;
-    box-shadow: 1px 1px 1px 1px #e8e9ea;
-   
+    border: 1px solid #2C698D;
+    padding: 14px 30px;
+    /* border-radius: 200px; */
+    color: #fff;
+    background: #2C698D;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    transition: 200ms;
 }
+
+.button:hover {
+        background: #fff;
+        color: #2C698D;
+}
+
+
+/* footer */
+#footer {
+    margin-top: 20px;
+    display: flex; 
+    justify-content: space-between;
+}
+
+#footer-left img {
+    height: 60%;
+    width: 20%;
+    margin-left: 5%;
+    padding-top: 1%;
+}
+
+#footer {  
+    bottom: 0;;
+    right: 0;
+    border: 1px solid silver; 
+    box-shadow: 
+        inset 0px 11px 8px -10px #CCC,
+        inset 0px -11px 8px -10px #CCC; 
+    width: 210vh;
+}
+
+#footer-right {
+    display: flex;
+    justify-content: end ;
+    column-gap:30px;
+    margin-right: 4%;
+}
+
+.footer-font {
+    font-family: 'Roboto';
+    font-weight: 200;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.footer-font p{
+    font-size: 0.9rem;
+}
+
+.footer-font h3{
+    font-size: 1.1rem;
+}
+
