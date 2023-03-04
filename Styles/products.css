@@ -1,5 +1,5 @@
 body{
-    background-color: aqua;
+     
 }
 
 
@@ -8,7 +8,11 @@ header{
     justify-content: space-between;
     padding: 1rem;
     align-items: center;
-
+    background-color: #2C698D;
+    opacity: 0.8;
+    margin: 0;
+     
+    /* border: 1px black solid; */
 }
 .side{
     display: flex;
@@ -19,10 +23,15 @@ header{
 }
 .side a:link {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(224, 223, 223);
+    z-index: 5px 2px 5px;
+    font-size: 1.2rem;
 }
 
 #logo{
     width: 200px;
     
+}
+.title {
+     font-size: 1.5rem;
 }
