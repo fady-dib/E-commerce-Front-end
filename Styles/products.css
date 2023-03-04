@@ -35,3 +35,9 @@ header{
 .title {
      font-size: 1.5rem;
 }
+.image img{
+    width: 300px;
+}
+.icon  {
+    width: 20px;
+}
