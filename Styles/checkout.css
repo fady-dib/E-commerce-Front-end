@@ -1,3 +1,6 @@
+body{
+    font-family:'Segoe UI';
+}
 .container_checkout{
     display: flex;
     justify-content: center;
@@ -5,10 +8,24 @@
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+    max-width: 900px;
+    background-color: rgb(240, 240, 240);
+    margin: auto;
+    border-radius: 20px;
+    flex-wrap: wrap;
     
 }
+.size_heading{
+    font-family:'Segoe UI';
+    color: #2C698D;
+    font-size: 25px;
+}
+.size_subheading{
+    color: #2C698D;
+    font-size: 20px;
+}
 .box_checkout{
-    width: 800px;
+    max-width: 800px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -57,22 +74,51 @@
     margin-left: 5px !important;
 }
 .box_button{
-    width: 500px;
+    max-width: 800px;
     display: flex;
     flex-direction: row;
     justify-content: right;
 
 }
 .input_black_border_left {
-    width: 50%;
+    font-family:'Segoe UI';
+    font-size: large;
+    width: 49.8%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 2px solid black;
     border-radius: 4px;
   }
+  
+  .input_black_border_left:focus {
+    outline: none !important;
+    border: 2px solid #2C698D;
+    box-shadow: 0 5px #b6daf0;
+    color: #000000;
+}
+.input_black_border_right:focus {
+    outline: none !important;
+    border: 2px solid #2C698D;
+    box-shadow: 0 5px #b6daf0;
+    color: #000000;
+}
+.input_black_border_center:focus {
+    outline: none !important;
+    border: 2px solid #2C698D;
+    box-shadow: 0 5px #b6daf0;
+    color: #000000;
+}
+.input_black_border_triple:focus {
+    outline: none !important;
+    border: 2px solid #2C698D;
+    box-shadow: 0 5px #b6daf0;
+    color: #000000;
+}
   .input_black_border_right {
-    width: 49.5%;
+    font-family:'Segoe UI';
+    font-size: large;
+    width: 49.6%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -80,6 +126,8 @@
     border-radius: 4px;
   }
   .input_black_border_center {
+    font-family:'Segoe UI';
+    font-size: large;
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -88,11 +136,35 @@
     border-radius: 4px;
   }
   .input_black_border_triple {
-    width: 33%;
+    font-family:'Segoe UI';
+    font-size: large;
+    width: 32.9%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 2px solid black;
     border-radius: 4px;
   }
-  
+  .button {
+    font-size: large;
+    display: inline-block;
+    font-family:'Segoe UI';
+    padding: 15px 25px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #ffffff;
+    background-color: #2C698D;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px 1px #e8e9ea;
+    margin-top: 20px;
+  }
+.button:hover {background-color: #1e4a63}
+
+.button:active {
+    background-color: #2C698D;
+    box-shadow: 1px 1px 1px 1px #e8e9ea;
+   
+}
