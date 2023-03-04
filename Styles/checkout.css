@@ -8,6 +8,10 @@ body{
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+    width: 900px;
+    background-color: rgb(240, 240, 240);
+    margin: auto;
+    border-radius: 20px;
     
 }
 .size_heading{
