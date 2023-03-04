@@ -44,6 +44,8 @@ header{
 
 body{
     font-family:'Segoe UI';
+    margin: 0;
+    padding: 0;
 }
 .container_checkout{
     display: flex;
