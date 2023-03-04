@@ -8,7 +8,7 @@ body{
     height: 100%
 }
 
-header{
+.header{
     display: flex;
     justify-content: space-between;
     padding: 1rem;
@@ -20,27 +20,25 @@ header{
 
 .title {
     font-size: 1.5rem;
-    color:rgb(44, 105, 141)
+    color:rgb(44, 105, 141);
+    position: relative;
+    left: 100px
 }
 
 .side{
     display: flex;
     gap: 2.5rem;
-   padding-right: 2rem;
+    padding-right: 2rem;
     
 }
 .side a:link {
     text-decoration: none;
     color:rgb(44, 105, 141);
-    
     font-size: 1.2rem;
 }
 
-.logo{
-    align-self: flex-start;
-}
 #logo{
-    width: 200px;
+    width: 100px;
     height : 40px;
 }
 
@@ -98,6 +96,16 @@ button {
 .button:hover {
         background: #fff;
         color: #2C698D;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container img{
+    width: 500px;
+    height: 300px;
 }
 
 /* .quantity{
