@@ -10,6 +10,34 @@ header{
     padding: 1rem;
     align-items: center;
     background-color: #2C698D;
+    width : 100%;
+    overflow:hidden
+}
+
+.title {
+    font-size: 1.5rem;
+    text-justify: center;
+}
+
+.side{
+    display: flex;
+    gap: 2.5rem;
+   padding-right: 2rem;
+    
+}
+.side a:link {
+    text-decoration: none;
+    color: rgb(224, 217, 217);
+    
+    font-size: 1.2rem;
+}
+
+.logo{
+    align-self: flex-start;
+}
+#logo{
+    width: 200px;
+    height : 40px;
 }
 
 .container {
