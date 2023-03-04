@@ -39,5 +39,16 @@ header{
     width: 300px;
 }
 .icon  {
-    width: 20px;
+    width: 27px;
 }
+.laptop{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+     
+}
+.product-name{
+    display: flex;
+    justify-content: space-between;
+}
+ 
