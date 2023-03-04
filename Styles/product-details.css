@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    background-color: #2C698D;
+}
+
 .container {
     display: flex;
     align-items: center;
@@ -52,7 +60,7 @@ button {
     background: #2C698D;
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
-    transition: 200ms;
+    transition: 500ms;
 }
 
 .button:hover {
