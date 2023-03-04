@@ -34,8 +34,10 @@
 }
 .p_summary{
     display:inline;
-    margin-top: 0px !important;
-    margin-bottom: 0px !important;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    margin-right: 5px !important;
+    margin-left: 5px !important;
 }
 .box_shipping{
     width: 20%;
@@ -49,6 +51,8 @@
 .p_shipping{
     display:block;
     text-align: center;
-    margin-top: 0px !important;
-    margin-bottom: 0px !important;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    margin-right: 5px !important;
+    margin-left: 5px !important;
 }
