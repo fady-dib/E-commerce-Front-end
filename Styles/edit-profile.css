@@ -165,3 +165,50 @@ body{
     box-shadow: 1px 1px 1px 1px #e8e9ea;
    
 }
+
+
+/* footer */
+#footer {
+    margin-top: 20px;
+    display: flex; 
+    justify-content: space-between;
+}
+
+#footer-left img {
+    height: 60%;
+    width: 20%;
+    margin-left: 5%;
+    padding-top: 1%;
+}
+
+#footer {  
+    bottom: 0;;
+    right: 0;
+    border: 1px solid silver; 
+    box-shadow: 
+        inset 0px 11px 8px -10px #CCC,
+        inset 0px -11px 8px -10px #CCC; 
+    width: 210vh;
+}
+
+#footer-right {
+    display: flex;
+    justify-content: end ;
+    column-gap:30px;
+    margin-right: 4%;
+}
+
+.footer-font {
+    font-family: 'Roboto';
+    font-weight: 200;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.footer-font p{
+    font-size: 0.9rem;
+}
+
+.footer-font h3{
+    font-size: 1.1rem;
+}
