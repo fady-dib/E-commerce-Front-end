@@ -8,22 +8,44 @@
 
 /* Home Page */
 
-.nav-bar {
+header{
     display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    background-color: #2C698D;
+    margin: 0;
+    
+    /* border: 1px black solid; */
 }
-.nav-bar img {
-    height: 50% ; 
-    width: 45%;
-}
-.nav-right {
+.side{
     display: flex;
+    gap: 2.5rem;
+ 
+   padding-right: 2rem;
+    
+}
+.side a:link {
+    text-decoration: none;
+    color: rgb(224, 217, 217);
+    
+    font-size: 1.2rem;
 }
 
+#logo{
+    width: 200px;
+    
+}
+.title {
+     font-size: 1.5rem;
+}
+/* ________________________________________________________________ */
 .home-page-background {
     background-image: url("/images/home_page_background.jpeg");
     background-position: relative;
     background-repeat: no-repeat;
     background-size: cover;
+    
     height: 100vh;
 }
 
@@ -52,3 +74,39 @@
 .footer-font h3{
     font-size: 1.1rem;
 }
+
+
+/* _________________burgermenu____________________ */
+.Profile {
+    position: relative;
+  }
+  
+  .burgermenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+     
+    background-color: #fff;
+     
+    width: 150px;
+    margin-right: 100px;
+  }
+  
+  .Profile:hover .burgermenu {
+    display: block;
+  }
+  /* _______________________________________________________ */
+  .category{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 200px;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-Top: 100px;
+  }
+  .category img{
+    cursor: pointer;
+  }
+
+  /* __________________________________________________________________ */
