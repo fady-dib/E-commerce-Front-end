@@ -41,7 +41,7 @@ header{
 }
 /* ________________________________________________________________ */
 .home-page-background {
-    background-image: url("/images/home_page_background.jpeg");
+    background-image: url("images/home_page_background.jpeg");
     background-position: relative;
     background-repeat: no-repeat;
     background-size: cover;
