@@ -6,7 +6,10 @@
 
 body{
     height: 100%;
-    background-image: url(../images/view-cart-background.avif);
+    background-image: url(../images/background-2076334.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     
 }
 
