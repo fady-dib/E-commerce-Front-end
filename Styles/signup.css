@@ -13,6 +13,7 @@ body{
     margin: auto;
     border-radius: 20px;
     flex-wrap: wrap;
+    padding-bottom: 50px;
     
 }
 .size_heading{
