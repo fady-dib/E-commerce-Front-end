@@ -1,5 +1,5 @@
 body{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:'Segoe UI';
 }
 .container_checkout{
     display: flex;
@@ -11,8 +11,9 @@ body{
     
 }
 .size_heading{
+    font-family:'Segoe UI';
     color: #2C698D;
-    font-size: 30px;
+    font-size: 25px;
 }
 .size_subheading{
     color: #2C698D;
@@ -75,9 +76,9 @@ body{
 
 }
 .input_black_border_left {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:'Segoe UI';
     font-size: large;
-    width: 50%;
+    width: 49.8%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -110,9 +111,9 @@ body{
     color: #000000;
 }
   .input_black_border_right {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:'Segoe UI';
     font-size: large;
-    width: 49.5%;
+    width: 49.6%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -120,7 +121,7 @@ body{
     border-radius: 4px;
   }
   .input_black_border_center {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:'Segoe UI';
     font-size: large;
     width: 100%;
     padding: 12px 20px;
@@ -130,9 +131,9 @@ body{
     border-radius: 4px;
   }
   .input_black_border_triple {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:'Segoe UI';
     font-size: large;
-    width: 33%;
+    width: 32.9%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -142,7 +143,7 @@ body{
   .button {
     font-size: large;
     display: inline-block;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:'Segoe UI';
     padding: 15px 25px;
     cursor: pointer;
     text-align: center;
