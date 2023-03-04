@@ -1,3 +1,6 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
 .container_checkout{
     display: flex;
     justify-content: center;
@@ -57,13 +60,15 @@
     margin-left: 5px !important;
 }
 .box_button{
-    width: 500px;
+    width: 800px;
     display: flex;
     flex-direction: row;
     justify-content: right;
 
 }
 .input_black_border_left {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
     width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -71,7 +76,34 @@
     border: 2px solid black;
     border-radius: 4px;
   }
+  
+  .input_black_border_left:focus {
+    outline: none !important;
+    border: 2px solid #2C698D;
+    box-shadow: 0 5px #b6daf0;
+    color: #2C698D;
+}
+.input_black_border_right:focus {
+    outline: none !important;
+    border: 2px solid #2C698D;
+    box-shadow: 0 5px #b6daf0;
+    color: #2C698D;
+}
+.input_black_border_center:focus {
+    outline: none !important;
+    border: 2px solid #2C698D;
+    box-shadow: 0 5px #b6daf0;
+    color: #2C698D;
+}
+.input_black_border_triple:focus {
+    outline: none !important;
+    border: 2px solid #2C698D;
+    box-shadow: 0 5px #b6daf0;
+    color: #2C698D;
+}
   .input_black_border_right {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
     width: 49.5%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -80,6 +112,8 @@
     border-radius: 4px;
   }
   .input_black_border_center {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -88,6 +122,8 @@
     border-radius: 4px;
   }
   .input_black_border_triple {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
     width: 33%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -95,4 +131,26 @@
     border: 2px solid black;
     border-radius: 4px;
   }
-  
+  .button {
+    font-size: large;
+    display: inline-block;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 15px 25px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #ffffff;
+    background-color: #2C698D;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px 1px #e8e9ea;
+    margin-top: 20px;
+  }
+.button:hover {background-color: #1e4a63}
+
+.button:active {
+    background-color: #2C698D;
+    box-shadow: 1px 1px 1px 1px #e8e9ea;
+   
+}
