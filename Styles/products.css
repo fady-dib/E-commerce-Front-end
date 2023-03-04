@@ -23,8 +23,8 @@ header{
 }
 .side a:link {
     text-decoration: none;
-    color: rgb(224, 223, 223);
-    z-index: 5px 2px 5px;
+    color: rgb(224, 217, 217);
+    
     font-size: 1.2rem;
 }
 
@@ -37,18 +37,51 @@ header{
 }
 .image img{
     width: 300px;
+    height: 200px;
+    
 }
 .icon  {
     width: 27px;
+    margin-top: 7px;
+    position: relative;
+    top: 6px;
+    right:  10px;
 }
+ .body{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
 .laptop{
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
+      
     width: fit-content;
+     padding-top: 0px;
+     height: fit-content;
      
+}
+.laptop img{
+    cursor: pointer;
 }
 .product-name{
     display: flex;
     justify-content: space-between;
+    margin-left: 10px;
 }
+.price{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.button-laptop{
+    margin-top: 10px;
+    position: relative;
+    top: 4px;
+    right:  10px;
+}
+     
  
