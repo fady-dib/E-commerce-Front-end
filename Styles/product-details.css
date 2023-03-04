@@ -9,14 +9,14 @@ header{
     justify-content: space-between;
     padding: 1rem;
     align-items: center;
-    background-color: #2C698D;
+    background-color:rgba(44, 105, 141,0.5);
     width : 100%;
     overflow:hidden
 }
 
 .title {
     font-size: 1.5rem;
-    text-justify: center;
+    color:rgb(44, 105, 141)
 }
 
 .side{
@@ -27,7 +27,7 @@ header{
 }
 .side a:link {
     text-decoration: none;
-    color: rgb(224, 217, 217);
+    color:rgb(44, 105, 141);
     
     font-size: 1.2rem;
 }
