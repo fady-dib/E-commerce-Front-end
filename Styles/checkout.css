@@ -16,6 +16,7 @@
 }
 
 .box_summary{
+    width: 20%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -33,6 +34,21 @@
 }
 .p_summary{
     display:inline;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.box_shipping{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    background-color: gainsboro;
+}
+.p_shipping{
+    display:block;
+    text-align: center;
     margin-top: 0px !important;
     margin-bottom: 0px !important;
 }
