@@ -20,3 +20,80 @@ body{
     color: #2C698D;
     font-size: 25px;
 }
+.size_subheading{
+    color: #2C698D;
+    font-size: 20px;
+}
+.box_checkout{
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+.input_black_border_left {
+    font-family:'Segoe UI';
+    font-size: large;
+    width: 49.8%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+  
+  .input_black_border_left:focus {
+    outline: none !important;
+    border: 2px solid #2C698D;
+    box-shadow: 0 5px #b6daf0;
+    color: #000000;
+}
+.input_black_border_right:focus {
+    outline: none !important;
+    border: 2px solid #2C698D;
+    box-shadow: 0 5px #b6daf0;
+    color: #000000;
+}
+.input_black_border_center:focus {
+    outline: none !important;
+    border: 2px solid #2C698D;
+    box-shadow: 0 5px #b6daf0;
+    color: #000000;
+}
+.input_black_border_triple:focus {
+    outline: none !important;
+    border: 2px solid #2C698D;
+    box-shadow: 0 5px #b6daf0;
+    color: #000000;
+}
+  .input_black_border_right {
+    font-family:'Segoe UI';
+    font-size: large;
+    width: 49.6%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+  .input_black_border_center {
+    font-family:'Segoe UI';
+    font-size: large;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+  .input_black_border_triple {
+    font-family:'Segoe UI';
+    font-size: large;
+    width: 32.9%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+  }
