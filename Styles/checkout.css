@@ -11,9 +11,11 @@ body{
     
 }
 .size_heading{
+    color: #2C698D;
     font-size: 30px;
 }
 .size_subheading{
+    color: #2C698D;
     font-size: 20px;
 }
 .box_checkout{
@@ -87,25 +89,25 @@ body{
     outline: none !important;
     border: 2px solid #2C698D;
     box-shadow: 0 5px #b6daf0;
-    color: #2C698D;
+    color: #000000;
 }
 .input_black_border_right:focus {
     outline: none !important;
     border: 2px solid #2C698D;
     box-shadow: 0 5px #b6daf0;
-    color: #2C698D;
+    color: #000000;
 }
 .input_black_border_center:focus {
     outline: none !important;
     border: 2px solid #2C698D;
     box-shadow: 0 5px #b6daf0;
-    color: #2C698D;
+    color: #000000;
 }
 .input_black_border_triple:focus {
     outline: none !important;
     border: 2px solid #2C698D;
     box-shadow: 0 5px #b6daf0;
-    color: #2C698D;
+    color: #000000;
 }
   .input_black_border_right {
     font-family:Georgia, 'Times New Roman', Times, serif;
