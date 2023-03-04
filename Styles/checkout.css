@@ -10,6 +10,12 @@ body{
     gap: 20px;
     
 }
+.size_heading{
+    font-size: 30px;
+}
+.size_subheading{
+    font-size: 20px;
+}
 .box_checkout{
     width: 800px;
     display: flex;
