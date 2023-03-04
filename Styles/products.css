@@ -84,4 +84,13 @@ header{
     right:  10px;
 }
      
- 
+.laptop-bussiness{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+      
+    width: fit-content;
+     padding-top: 0px;
+     height: fit-content;
+     
+}
