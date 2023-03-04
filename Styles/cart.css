@@ -42,16 +42,43 @@ header{
 .view-cart {
     background-image: url(../images/view-cart-background.avif);
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .view-cart h1 {
     text-align: center;
 }
 
-.cart-border {
-    border-radius: 1px solid silver;
-
+.h1{
+    padding-top: 30px;
+    font-size: 2rem;
 }
+
+
+.product-details {
+    display: flex;
+    column-gap: 50px;
+    margin-top: 6%;
+    margin-left: 20%;
+    
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2%;
+}
+
+.price-quantity{
+    margin-top: 26%;
+    display: flex;
+    column-gap: 300px;
+}
+
+
+
 
 
 /* footer */
