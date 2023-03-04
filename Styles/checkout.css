@@ -1,3 +1,6 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
 .container_checkout{
     display: flex;
     justify-content: center;
@@ -64,6 +67,8 @@
 
 }
 .input_black_border_left {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
     width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -97,6 +102,8 @@
     color: #2C698D;
 }
   .input_black_border_right {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
     width: 49.5%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -105,6 +112,8 @@
     border-radius: 4px;
   }
   .input_black_border_center {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -113,6 +122,8 @@
     border-radius: 4px;
   }
   .input_black_border_triple {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
     width: 33%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -121,9 +132,10 @@
     border-radius: 4px;
   }
   .button {
+    font-size: large;
     display: inline-block;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     padding: 15px 25px;
-    font-size: 15px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
