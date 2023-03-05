@@ -44,12 +44,24 @@ html {
     border-radius: 4px;
 }
 
+.button {
+    cursor: pointer;
+    width: 75%;
+    border: 1px solid #2C698D;
+    padding: 14px 30px;
+    border-radius: 200px;
+    color: #fff;
+    background: #2C698D;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    transition: 200ms;
+}
 
 
-  .login > *{
+  /* .login > *{
     margin: 20px
-  }
+  } */
 
-  .submit {
+  /* .submit {
     text-align: center;
-  }
+  } */
