@@ -9,7 +9,8 @@ body{
     background-image: url(../images/background-2076334.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover ;
+    background-position: center;
 
 }
 
