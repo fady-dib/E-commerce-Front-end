@@ -86,6 +86,17 @@ body {
     width: 42%;
 }
 
+.product-info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2%;
+}
+
+.price-quantity{
+    margin-top: 26%;
+    display: flex;
+    column-gap: 300px;
+}
 
 
 
