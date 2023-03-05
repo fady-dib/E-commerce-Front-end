@@ -1,8 +1,12 @@
 /* css reset */
 * {
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
+    box-sizing: border-box;
+    border: 0;
 }
+
+
 
 /* header */
 header{
@@ -39,9 +43,16 @@ header{
 }
 
 /* body */
-.view-cart {
+
+body {
     background-image: url(../images/view-cart-background.avif);
-    height: 100vh;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.view-cart {
+
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -60,9 +71,21 @@ header{
 .product-details {
     display: flex;
     column-gap: 50px;
-    margin-top: 6%;
-    margin-left: 20%;
+    margin-left: 16%;
+    border: 3px solid silver;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
+    /* box-shadow: 
+    inset 0px 11px 8px -10px #2C698D ,
+    inset 0px -11px 8px -10px #2C698D ;   */
+    width: 70%;
+    padding: 30px;
+    
+}
+
+.product-image img{
+    height:100%;
+    width: 100%;
 }
 
 .product-info {
@@ -80,11 +103,44 @@ header{
 
 
 
+/* checkout */
+
+.checkout {
+    display: flex;
+    column-gap: 600px;
+    margin-top: 3%;
+    justify-content: center;
+}
+
+.checkout-price {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    cursor: pointer;
+    border: 1px solid #2C698D;
+    padding: 14px 30px;
+    border-radius: 20px;
+    /* border-radius: 200px; */
+    color: #fff;
+    background: #2C698D;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    transition: 200ms;
+}
+
+.button:hover {
+        background: #fff;
+        color: #2C698D;
+}
+
 
 /* footer */
-#footer {
+footer {
     display: flex; 
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 #footer-left img {
@@ -94,14 +150,12 @@ header{
     padding-top: 1%;
 }
 
-#footer {  
-    bottom: 0;;
-    right: 0;
+footer {  
+
     border: 1px solid silver; 
     box-shadow: 
         inset 0px 11px 8px -10px #CCC,
-        inset 0px -11px 8px -10px #CCC; 
-    width: 210vh;
+        inset 0px -11px 8px -10px #CCC;  
 }
 
 #footer-right {
