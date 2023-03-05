@@ -110,3 +110,19 @@ header{
   }
 
   /* __________________________________________________________________ */
+  .footer-container{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgba(44, 105, 141,0.5);
+    margin-top: 18px
+}
+
+.footer-container > * {
+    margin: 10px 50px
+}
+
+.footer-container img{
+    width: 100px;
+    height : 40px;
+}
+/* _________________________________________________________ */
