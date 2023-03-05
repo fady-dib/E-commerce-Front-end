@@ -44,24 +44,40 @@ html {
     border-radius: 4px;
 }
 
+.input:focus {
+    outline: none !important;
+    border: 2px solid #2C698D;
+    box-shadow: 0 5px #b6daf0;
+    color: #000000;
+}
+
 .button {
     cursor: pointer;
     width: 75%;
     border: 1px solid #2C698D;
     padding: 14px 30px;
-    border-radius: 200px;
+    border-radius: 500px;
     color: #fff;
     background: #2C698D;
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
-    transition: 200ms;
+    transition: 500ms;
+}
+
+.button:hover {
+    background: #fff;
+    color: #2C698D;
 }
 
 
-  /* .login > *{
+  .login > *{
     margin: 20px
-  } */
+  }
 
-  /* .submit {
+  .forgot{
+    display : inline
+  }
+
+  .submit {
     text-align: center;
-  } */
+  }
