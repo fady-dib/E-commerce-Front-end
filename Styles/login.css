@@ -33,6 +33,17 @@ html {
     font-size: 20px
   }
 
+.input{
+    font-family: 'Segoe UI';
+    font-size: large;
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
 
 
   .login > *{
