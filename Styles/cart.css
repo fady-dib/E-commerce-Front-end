@@ -84,8 +84,8 @@ body {
 }
 
 .product-image img{
-    height:100%;
-    width: 100%;
+    height:40%;
+    width: 40%;
 }
 
 .product-info {
