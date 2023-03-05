@@ -9,7 +9,6 @@ header{
     padding: 1rem;
     align-items: center;
     background-color: #2C698D;
-     op
     margin: 0;
     
     /* border: 1px black solid; */
@@ -54,7 +53,16 @@ header{
     flex-wrap: wrap;
     justify-content: space-around;
  }
+
+ 
  .tradtional-laptop{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+ .bussiness-laptop{
     display: flex;
     flex-direction: row;
     gap: 100px;
@@ -100,24 +108,6 @@ header{
     right:  10px;
 }
      
-.laptop-bussiness{
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-      
-    width: fit-content;
-     padding-top: 0px;
-     height: fit-content;
-     
-}
  
-.tra-laptop{
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-      
-    width: fit-content;
-     padding-top: 0px;
-     height: fit-content;
-     
-}
+ 
+ 
