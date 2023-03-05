@@ -1,0 +1,91 @@
+/* css reset */
+* {
+    /* margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+
+
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    background-color: #2C698D;
+    opacity: 0.8;
+    margin: 0;
+     
+    /* border: 1px black solid; */
+}
+.side{
+    display: flex;
+    gap: 2.5rem;
+ 
+   padding-right: 2rem;
+    
+}
+.side a:link {
+    text-decoration: none;
+    color: rgb(224, 223, 223);
+    z-index: 5px 2px 5px;
+    font-size: 1.2rem;
+}
+
+#logo{
+    width: 200px;
+    
+}
+.title {
+     font-size: 1.5rem;
+}
+
+
+
+/* footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#footer-left img {
+    height: 60%;
+    width: 20%;
+    margin-left: 5%;
+    padding-top: 1%;
+}
+
+footer {  
+
+    border: 1px solid silver; 
+    box-shadow: 
+        inset 0px 11px 8px -10px #CCC,
+        inset 0px -11px 8px -10px #CCC;  
+}
+
+#footer-right {
+    display: flex;
+    justify-content: end ;
+    column-gap:30px;
+    margin-right: 4%;
+}
+
+.footer-font {
+    font-family: 'Roboto';
+    font-weight: 200;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.footer-font p{
+    font-size: 0.9rem;
+}
+
+.footer-font h3{
+    font-size: 1.1rem;
+}
