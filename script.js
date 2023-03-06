@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // // window.onload{
 
 // // }
@@ -71,7 +70,7 @@ const init = () => {
     }
 
 init()
-=======
+
   let user=document.getElementById("user")
   let sign_up=document.getElementById("sign_up")
   let admin=document.getElementById("admin")
