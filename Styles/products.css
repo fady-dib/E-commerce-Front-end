@@ -8,7 +8,7 @@ header{
     justify-content: space-between;
     padding: 1rem;
     align-items: center;
-    background-color: #2C698D;
+    background-color: rgba(44, 105, 141,0.5);
     margin: 0;
     
     /* border: 1px black solid; */
@@ -26,6 +26,11 @@ header{
     
     font-size: 1.2rem;
 }
+
+.side a:visited{
+    color: #ffffff;
+}
+
 
 #logo{
     width: 200px;
