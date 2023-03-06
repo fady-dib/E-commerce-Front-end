@@ -1,55 +1,9 @@
-// // window.onload{
-
-// // }
-// const products = document.querySelectorAll('.product');
-// products.forEach((product, index)  => {
-//     product.id = `product-${index}`;
-// })
-
-// const images = document.querySelectorAll('.product-image');
-//     images.forEach((image) => {
-//         image.addEventListener('click', fetchData())
-//     })
-
-//     function fetchData(e){
-//         const product_id = e.target.closest('.product').id;
-
-//         axios({
-//             "method": "get",
-//             "url" : "http://localhost/E-commerce-backend/product-details.php",
-//             "data" : data
-//         }).then((result) => {
-//             console.log(result)
-//         })
-//     }
-
-
-// const users = document.getElementById("users");
-// users.addEventListener("click", function () {
-//   let data = new FormData();
-//   axios({
-//     method: "get",
-//     url: "http://Localhost/delizzia/APIs/get_users.php",
-//     data: data,
-//   }).then(function (res) {
-//     console.log(res.data);
-//     localStorage.setItem("users", JSON.stringify(res.data));
-//     window.location.href = "users.html";
-//   });
-// });
-
-// const product = document.getele('.product');
-//  products.forEach((product, index)  => {
-//      product.id = `product-${index}`;
-//  })
-
-
 const image = document.getElementById('image');
 const name = document.getElementById('name');
 const price = document.getElementById('price');
 const button = document.getElementById('button');
 const container = document.getElementById('container');
- let htmt='';
+let htmt='';
 
 const init = () => {
 
