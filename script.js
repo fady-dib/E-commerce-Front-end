@@ -1,7 +1,3 @@
-const image = document.getElementById('image');
-const name = document.getElementById('name');
-const price = document.getElementById('price');
-const button = document.getElementById('button');
 const container = document.getElementById('container');
 let htmt='';
 
@@ -19,7 +15,7 @@ const init = () => {
             let id = res.data[i].id;
             console.log(name)
             html = `<div class="laptop">`
-            html += `<div class="image"><img src="images/${id}.jpg"></div>`;
+            html += `<div class="image"><a href="/pages/product-details.html"><img id="${id}" src="images/${id}.jpg" onclick="onClick()""></a></div>`;
             html += `<div class="product-name">`;
             html += `<div>
             <p class="name">${name}</p></div>
@@ -40,7 +36,8 @@ const init = () => {
   
     }
 
-init()
+init();
+
   let user=document.getElementById("user")
   let sign_up=document.getElementById("sign_up")
   let admin=document.getElementById("admin")
@@ -57,6 +54,17 @@ init()
     window.location.href = "pages/login.html";
   });
 
-if (storage_id != null) {
-  document.getElementById('profile').setAttribute("href", "../E-commerce-Full-Stack/pages/edit-profile.html")
+// if (storage_id != null) {
+//   document.getElementById('profile').setAttribute("href", "../E-commerce-Full-Stack/pages/edit-profile.html")
+// }
+
+const onClick = (e) => {
+
+  let data = new FormData();
+  data.append()
+  axios({
+    method:"get",
+    url : "http://localhost:8080/E-commerce-backend/products-details.php",
+  }).then()
+
 }
