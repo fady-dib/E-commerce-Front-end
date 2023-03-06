@@ -37,7 +37,7 @@ header{
 
 #logo{
     width: 200px;
-    background-color: #b3aeae;
+     
     border-radius: 50%;
 }
 .title {
@@ -65,7 +65,7 @@ header{
   /* _______________________________________________________ */
 /* ________________________________________________________________ */
 .home-page-background {
-    background-image: url("images/home_page_background.jpeg");
+    background-image: url("images/desk-office.jpg");
     background-position: relative;
     background-repeat: no-repeat;
     background-size: cover;
