@@ -20,7 +20,7 @@ function signup() {
     
     axios({
         "method": "post",
-        "url": "http://localhost/Assignments_FSW/E-commerce-backend/signup.php",
+        "url": "http://localhost/E-commerce-backend/signup.php",
         "data": data
     }).then((result) => {
         console.log(result)

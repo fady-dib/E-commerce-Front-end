@@ -7,7 +7,7 @@ function signin() {
     let data = new FormData();
     data.append('username', username);
     data.append('password', password);
-    axios.post('http://localhost/Assignments_FSW/E-commerce-backend/login.php', data).then(function (res) {
+    axios.post('http://localhost/E-commerce-backend/login.php', data).then(function (res) {
         console.log(res.data)
 
  if(res.data.status = "logged in" && res.data.user_id )    {
