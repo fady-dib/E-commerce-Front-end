@@ -14,10 +14,9 @@ header{
     justify-content: space-between;
     padding: 1rem;
     align-items: center;
-    background-color: #2C698D;
-    opacity: 0.8;
+    background-color: rgba(44, 105, 141,0.5);
     margin: 0;
-     
+    
     /* border: 1px black solid; */
 }
 .side{
@@ -29,10 +28,15 @@ header{
 }
 .side a:link {
     text-decoration: none;
-    color: rgb(224, 223, 223);
-    z-index: 5px 2px 5px;
+    color: rgb(224, 217, 217);
+    
     font-size: 1.2rem;
 }
+
+.side a:visited{
+    color: #ffffff;
+}
+
 
 #logo{
     width: 200px;
@@ -41,7 +45,36 @@ header{
 .title {
      font-size: 1.5rem;
 }
-
+.image img{
+    width: 300px;
+    height: 250px;
+    
+}
+.icon  {
+    width: 27px;
+    margin-top: 7px;
+    position: relative;
+    top: 6px;
+    right:  10px;
+    
+}.Profile {
+    position: relative;
+  }
+  
+  .burgermenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+     
+    background-color: #646363;
+     
+    width: 150px;
+    margin-right: 100px;
+  }
+  
+  .Profile:hover .burgermenu {
+    display: block;
+  }
 /* body */
 
 body {

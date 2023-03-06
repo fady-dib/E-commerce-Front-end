@@ -8,7 +8,7 @@ header{
     justify-content: space-between;
     padding: 1rem;
     align-items: center;
-    background-color: #2C698D;
+    background-color: rgba(44, 105, 141,0.5);
     margin: 0;
     
     /* border: 1px black solid; */
@@ -26,6 +26,11 @@ header{
     
     font-size: 1.2rem;
 }
+
+.side a:visited{
+    color: #ffffff;
+}
+
 
 #logo{
     width: 200px;
@@ -46,6 +51,26 @@ header{
     top: 6px;
     right:  10px;
 }
+/* _________________burgermenu____________________ */
+.Profile {
+    position: relative;
+  }
+  
+  .burgermenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+     
+    background-color: #646363;
+     
+    width: 150px;
+    margin-right: 100px;
+  }
+  
+  .Profile:hover .burgermenu {
+    display: block;
+  }
+  /* _______________________________________________________ */
  .gaming-laptop{
     display: flex;
     flex-direction: row;
@@ -109,5 +134,21 @@ header{
 }
      
  
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgba(44, 105, 141,0.5);
+    margin-top: 18px
+}
+
+.footer-container > * {
+    margin: 10px 50px
+    
+}
+
+.footer-container img{
+    width: 200px;
+    height : 100px;
+}
  
- 
+/* ______________________________________________________________________________________ */
