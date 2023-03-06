@@ -149,3 +149,9 @@ button {
 /* .product-name {
     vertical-align: top;
 } */
+header ,p {
+    color: wheat;
+}
+header ,h3{
+    color: wheat;
+}
