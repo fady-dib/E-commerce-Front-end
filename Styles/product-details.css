@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family :sans-serif;
 }
 
 body{
@@ -59,7 +60,12 @@ body{
 
 img {
     width: 500px;
-    height: 300px
+    height: 300px;
+    border-radius: 70px;
+
+}
+input{
+    background-color: #dcf1fc;
 }
 
 .product-details {
@@ -71,6 +77,7 @@ img {
     margin-left: 40px;
     flex-wrap: wrap;
     margin-top: 65px;
+    width : 400px
 }
 
 .product-details p,
@@ -78,7 +85,7 @@ button {
     padding-bottom: 30px;
 }
 
-.product-details input {
+.quantity input {
     width: 35px;
     display: inline-block
 }
@@ -91,10 +98,9 @@ button {
     cursor: pointer;
     border: 1px solid #2C698D;
     padding: 14px 30px;
-    /* border-radius: 200px; */
+    border-radius: 200px;
     color: #fff;
     background: #2C698D;
-    font-family: "Open Sans", sans-serif;
     font-size: 16px;
     transition: 500ms;
 }
@@ -103,12 +109,19 @@ button {
         background: #fff;
         color: #2C698D;
 }
+.contact {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px
+}
 
 .footer-container{
     display: flex;
     justify-content: space-between;
     background-color:rgba(44, 105, 141,0.5);
-    margin-top: 18px
+    margin-top: 18px;
+    align-items: center;
+    color: white;
 }
 
 .footer-container > * {
