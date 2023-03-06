@@ -13,7 +13,7 @@ function signin() {
  if(res.data.status = "logged in" && res.data.user_id )    {
         location.replace("../index.html")
         window.localStorage.setItem('user_id', res.data.user_id);
-        console.log(window.sessionStorage.getItem('user_id'))
+        console.log(window.localStorage.getItem('user_id'))
         
  }
     }).catch(function (err) {
