@@ -51,6 +51,26 @@ header{
     top: 6px;
     right:  10px;
 }
+/* _________________burgermenu____________________ */
+.Profile {
+    position: relative;
+  }
+  
+  .burgermenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+     
+    background-color: #646363;
+     
+    width: 150px;
+    margin-right: 100px;
+  }
+  
+  .Profile:hover .burgermenu {
+    display: block;
+  }
+  /* _______________________________________________________ */
  .gaming-laptop{
     display: flex;
     flex-direction: row;
@@ -114,5 +134,21 @@ header{
 }
      
  
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgba(44, 105, 141,0.5);
+    margin-top: 18px
+}
+
+.footer-container > * {
+    margin: 10px 50px
+    
+}
+
+.footer-container img{
+    width: 100px;
+    height : 40px;
+}
  
- 
+/* ______________________________________________________________________________________ */

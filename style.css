@@ -42,6 +42,26 @@ header{
 .title {
      font-size: 1.5rem;
 }
+/* _________________burgermenu____________________ */
+.Profile {
+    position: relative;
+  }
+  
+  .burgermenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+     
+    background-color: #646363;
+     
+    width: 150px;
+    margin-right: 100px;
+  }
+  
+  .Profile:hover .burgermenu {
+    display: block;
+  }
+  /* _______________________________________________________ */
 /* ________________________________________________________________ */
 .home-page-background {
     background-image: url("images/home_page_background.jpeg");
@@ -79,26 +99,7 @@ header{
 }
 
 
-/* _________________burgermenu____________________ */
-.Profile {
-    position: relative;
-  }
-  
-  .burgermenu {
-    display: none;
-    position: absolute;
-    top: 100%;
-     
-    background-color: #646363;
-     
-    width: 150px;
-    margin-right: 100px;
-  }
-  
-  .Profile:hover .burgermenu {
-    display: block;
-  }
-  /* _______________________________________________________ */
+
   .category{
     display: flex;
     flex-wrap: wrap;
