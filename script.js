@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // // window.onload{
 
 // // }
@@ -50,7 +49,7 @@ const name = document.getElementById('name');
 const price = document.getElementById('price');
 const button = document.getElementById('button');
 const container = document.getElementById('container');
-
+ let htmt='';
 
 const init = () => {
 
@@ -61,31 +60,30 @@ const init = () => {
         console.log(res.data);
         for(i = 0; i < res.data.length; i++){
             let name = res.data[i].name;
-            let image = res.data[i].image;
+            // let image = res.data[i].image;
             let price = res.data[i].price;
+            let id = res.data[i].id;
             console.log(name)
+            html = `<div class="laptop">`
+            html += `<div class="image><img src="images/laptop21.jpg"></div>`;
+            html += `<div class="product-name">`;
+            html += `<div>
+            <p class="name">${name}</p></div>
+             <div> <img class="icon" src="../images/3134340-200.png"> </div>
+       </div>`
+       html += `<div class="price">
+       <div>
+        <p>${price}</p>
+      </div>
+      <div class="button-laptop"><button>add to cart</button></div>
+    </div>
+          </div>`
+       container.insertAdjacentHTML('beforeend', html);
         }
-        let html = "<div><</div>"
+       
+        
       })
   
     }
 
 init()
-=======
-  let user=document.getElementById("user")
-  let sign_up=document.getElementById("sign_up")
-  let admin=document.getElementById("admin")
-
-  user.addEventListener('click',()=>{
-    window.location.href = "pages/login.html";
-  });
-
-  sign_up.addEventListener('click',()=>{
-    window.location.href = "pages/signup.html";
-  });
-
-  admin.addEventListener('click',()=>{
-    window.location.href = "pages/login.html";
-  });
-//  burger menu above_______________________________________________________________________________________
->>>>>>> 64218c2c704390ff9d8ead48658af6c650f27cc4
