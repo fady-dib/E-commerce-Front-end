@@ -13,10 +13,10 @@ header{
     justify-content: space-between;
     padding: 1rem;
     align-items: center;
-    background-color: #2C698D;
+    background-color:rgba(44, 105, 141,0.5);
     margin: 0;
     
-    /* border: 1px black solid; */
+     
 }
 .side{
     display: flex;
@@ -89,7 +89,7 @@ header{
     position: absolute;
     top: 100%;
      
-    background-color: #000000;
+    background-color: #646363;
      
     width: 150px;
     margin-right: 100px;
