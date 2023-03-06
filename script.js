@@ -87,3 +87,9 @@ init()
     window.location.href = "pages/login.html";
   });
 //  burger menu above_______________________________________________________________________________________
+
+let storage_id =window.localStorage.getItem('user_id') ; 
+
+if (storage_id != null) {
+  document.getElementById('profile').setAttribute("href", "../E-commerce-Full-Stack/pages/edit-profile.html")
+}
