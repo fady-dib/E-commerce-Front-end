@@ -79,7 +79,7 @@ header{
 /* body */
 
 body {
-    background-image: url(../images/view-cart-background.jpg);
+  background-color: lightgrey;;
     background-size: cover;
     padding: 0;
     margin: 0;
@@ -203,8 +203,8 @@ body {
     align-items: center;
 }
 header ,p {
-    color: wheat;
+    color: white
 }
 header ,h3{
-    color: wheat;
+    color: white
 }
