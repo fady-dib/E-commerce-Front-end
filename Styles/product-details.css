@@ -90,8 +90,10 @@ button, h3 {
 }
 
 .quantity input {
-    width: 35px;
-    display: inline-block
+    width: 50px;
+    height : 30px;
+    border-radius: 100px;
+    /* display: inline-block */
 }
 
 .span {
@@ -104,7 +106,7 @@ button, h3 {
     padding: 14px 30px;
     border-radius: 200px;
     color: #fff;
-    background: #2C698D;
+    background: #2C698D ;
     font-size: 16px;
     transition: 500ms;
 }
@@ -154,12 +156,11 @@ button, h3 {
 /* .product-name {
     vertical-align: top;
 } */
-header ,p {
-    color: #2C698D;
+.product-details p,h3 {
+    color :#2C698D
 }
-header ,h3{
-    color:#2C698D;
-}
-.footer-font > * {
+
+.footer-container > * {
 color: white;
 }
+ 
