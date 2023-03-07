@@ -8,6 +8,10 @@ header{
     
      
 }
+
+body{
+    background-color: lightgrey;
+}
 .side{
     display: flex;
     gap: 2.5rem;
@@ -69,11 +73,12 @@ body{
     align-items: center;
     gap: 20px;
     max-width: 600px;
-    background-color: rgb(240, 240, 240);
+    background-color: white;
     margin: auto;
     border-radius: 20px;
     flex-wrap: wrap;
     padding-bottom: 50px;
+    margin-top: 20px;
     
 }
 .size_heading{
@@ -143,8 +148,8 @@ body{
     align-items: center;
 }
 header ,p {
-    color: wheat;
+    color: white
 }
 header ,h3{
-    color: wheat;
+    color: white
 }
