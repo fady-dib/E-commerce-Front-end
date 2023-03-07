@@ -1,6 +1,6 @@
 const container = document.getElementById('container');
 let htmt='';
-
+let id ;
 const init = () => {
 
     axios({
@@ -12,7 +12,7 @@ const init = () => {
             let name = res.data[i].name;
             // let image = res.data[i].image;
             let price = res.data[i].price;
-            let id = res.data[i].id;
+            id = res.data[i].id;
             console.log(name)
             html = `<div class="laptop">`
             html += `<div class="image"><a href="/pages/product-details.html"><img id="${id}" src="images/${id}.jpg" onclick="onClick()""></a></div>`;
@@ -59,7 +59,6 @@ init();
 // }
 
 const onClick = (e) => {
-
   let data = new FormData();
   data.append()
   axios({
