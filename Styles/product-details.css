@@ -156,7 +156,7 @@ button, h3 {
 /* .product-name {
     vertical-align: top;
 } */
-.product-details p,h3 {
+.product-details p h3 {
     color :#2C698D
 }
 
