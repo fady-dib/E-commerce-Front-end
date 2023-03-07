@@ -139,7 +139,6 @@ header{
 .footer-font {
     font-family: 'Roboto';
     font-weight: 200;
-    font-style: italic;
     font-weight: lighter;
 }
 
@@ -175,7 +174,8 @@ header{
 }
 
 .footer-container > * {
-    margin: 10px 50px
+    margin: 10px 50px;
+    color :white
 }
 
 .footer-container img{
@@ -191,9 +191,3 @@ header{
     align-items: center;
 }
 
-header ,p {
-    color: wheat;
-}
-header ,h3{
-    color: wheat;
-}
