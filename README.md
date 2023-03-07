@@ -23,14 +23,18 @@
 - As an admin I want to add/edit/remove products so that I can keep my website updated.
 - As an admin i want to be able to display users so that I can track my website popularity.
 
+#color palete:
+![color palette](https://user-images.githubusercontent.com/100348882/223450048-9503f34f-81e5-486f-b588-8e07e2f0e109.png)
+
 
 
 ##website screenshots:
-![image 11](https://user-images.githubusercontent.com/100348882/223445609-a8fb7acb-b0f2-4af3-b2e1-da6ecd49a3a7.png)
 ![Screenshot 2023-03-07 072943 1](https://user-images.githubusercontent.com/100348882/223447064-6251c3d6-cc24-4859-9f43-4f6ea5144276.png)
 ![Screenshot 2023-03-07 150921 1](https://user-images.githubusercontent.com/100348882/223447281-1f65bfd2-72a8-45e7-917f-f69280128dfd.png)
 ![Screenshot 2023-03-07 150936 1](https://user-images.githubusercontent.com/100348882/223447353-a668a0b1-fda2-4403-9c38-019a6b969382.png)
-![Screenshot 2023-03-07 150949 1](https://user-images.githubusercontent.com/100348882/223447965-b46cee47-6337-4597-8001-2bd92c35fd75.png)
-![Screenshot 2023-03-07 151055 1](https://user-images.githubusercontent.com/100348882/223447991-708d5769-bd80-4063-889e-00264c0f7787.png)
 ![image 12](https://user-images.githubusercontent.com/100348882/223449685-eff4fb77-fc38-45b9-bb6e-b3088da0450b.png)
+![Screenshot 2023-03-07 150949 1](https://user-images.githubusercontent.com/100348882/223447965-b46cee47-6337-4597-8001-2bd92c35fd75.png)
+![image 11](https://user-images.githubusercontent.com/100348882/223445609-a8fb7acb-b0f2-4af3-b2e1-da6ecd49a3a7.png)
+
+
 
